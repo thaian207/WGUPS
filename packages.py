@@ -1,6 +1,6 @@
 import csv
 
-#this method read and format all the packages from CSV. O(N) Complexity
+# this method read and format all the packages from CSV. O(N) Complexity
 def readpackages():
     with open('data/packages.csv', encoding='utf-8-sig', newline='') as packcvs:
         allpackages = []
