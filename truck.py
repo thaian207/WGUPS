@@ -6,7 +6,7 @@ from math import ceil
 
 
 class Truck:
-    #initialize the hashtable and total distance variable. O(1) Complexity
+     #initialize the hashtable and total distance variable. O(1) Complexity
     def __init__(self):
         self.hashtable = HashTable()
         self.createhashtable()
